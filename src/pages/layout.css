@@ -1,0 +1,29 @@
+.customOverlay {
+  background: rgba(0, 0, 0, 0.7);
+}
+
+@media (min-width: 768px) {
+  .customModal {
+    padding: 40px;
+    width: 600px;
+  }
+}
+.customModal {
+  background: #101010;
+  border-radius: 2px;
+}
+
+.footer-links a {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #999999;
+  transition: color 0.2s ease;
+}
+
+.footer-links a:hover {
+  color: #9a1919;
+}
+
+.react-responsive-modal-closeButton {
+  color: #ffffff;
+}
